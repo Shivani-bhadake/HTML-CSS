@@ -1,0 +1,24 @@
+body{
+  
+    /* background-image: url(../JPI/e1.jpg); */
+    /* opacity: 0.2; */
+    background-color: brown;
+
+}
+h1{
+    background-color: aqua;
+    color: rgb(9, 96, 4);
+    background-image: url(../JPI/image.jpg);
+}
+
+div1{
+
+}
+#id1{
+    /* background-image: url(../JPI/image.jpg); */
+    text-align: center;
+    opacity: 0.8;
+}
+.box{
+    margin: auto;
+}
