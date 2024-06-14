@@ -1,0 +1,32 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.box{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.img_box 
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+   
+}
+img{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.header h1
+{
+    position: absolute;
+    color: rgb(16, 42, 67);
+    z-index: 1;
+   
+    top: 30px;
+   /* left: 100px; */
+}

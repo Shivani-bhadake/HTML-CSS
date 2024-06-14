@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Jacquarda+Bastarda+9+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+        background-image: linear-gradient(to right,#834d9b,#bdc3c7, #d04ed6);
+
+    }
+.box
+{
+    width: 80%;
+    min-height: 200px;
+    border: 1px solid black;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    display: flex; 
+    align-items:center; 
+    /* gap:10px; */
+    
+}
+.login-form
+{
+    width: 40%;
+    /* border: 1px solid red; */
+    padding: 25px;
+    /* box-shadow: 2px 2px 2px; */
+   box-shadow:  2px 2px 9px rgb(225, 224, 224);
+}
+.login-form .logo
+{
+    /* text-align: center; */
+    width: 100%;
+    font-family: "Figtree", sans-serif;
+}
+.b1
+{
+    width: 100%;
+    height: 30px;
+    font-family: "Figtree", sans-serif;
+}
+p{
+    width: 60%;
+     float: left; 
+     font-family: "Figtree", sans-serif;
+}
+a{
+    width: 31%;
+    float: right;
+    text-align: right;
+    color: #bf46c5;
+    font-family: "Figtree", sans-serif;
+}
+ /* a:hover
+{
+    color: #6d2271;
+}  */
+label
+{
+    font-family: "Figtree", sans-serif;
+   
+
+}
+.login-form .logo h1
+{
+    padding-bottom: 10px;
+    font-family: "Figtree", sans-serif;
+}
+input[type="email"]
+{
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Figtree", sans-serif;
+}
+input[type="password"]
+{
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Figtree", sans-serif;
+}
+input[type="submit"]
+{
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+   
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color:#d04ed6;
+    color: white;
+    font-size: 1em;
+    font-family: "Figtree", sans-serif;
+}
+input[type="submit"]:hover{
+    color: #321d3b;
+}
+input[type="checkbox"]
+{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: "Figtree", sans-serif;
+}
+.line h5
+{
+    font-size: 1em;
+    color: #bdc3c7;
+    font-family: "Figtree", sans-serif;
+}
+hr{
+    width: 36%;
+    height: 1px;
+}
+.box-menu{
+    width: 100%;
+    height: 40%;
+    /* border:1px solid #834d9b; */
+    margin-top: 15px;
+    display: flex; 
+    align-items: center; 
+    text-align: center;
+   
+    gap:15px
+}
+.box-menu .cal{
+    width: 50%;
+    
+    height: 40px;
+    border:1px solid #321d3b;
+    /* padding-top: 7px; */
+    border-radius: 7px;
+    font-family: "Figtree", sans-serif;
+}
+#cal1
+{
+    border: 2px solid red;
+    color: red;
+    /* background-image: url(../JPI/google.png); */
+    background-repeat: no-repeat;
+   
+}
+.cal img
+{
+    /* background-color: #321d3b; */
+    margin-top:4px ;
+    /* margin-left: 4px; */
+}
+#cal2
+{
+    border: 2px solid rgb(58, 7, 179);
+    color: rgb(58, 7, 179);
+}
+.image 
+{
+     width: 60%;
+    /* height: 70%; */
+    /* border: 1px solid gold; */
+}
+.image img{
+    width: 100%;
+     height: 100%; 
+     padding: 35px; 
+}

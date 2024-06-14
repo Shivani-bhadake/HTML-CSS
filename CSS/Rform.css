@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Jacquarda+Bastarda+9+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body{
+    background-image: linear-gradient(to right,#07f5a9 10%,#0db38a 50%);
+}
+.box{
+    width: 60%;
+    min-height:300px;
+    margin: 100px auto ;
+    border: 1px solid black;
+    background-color: white;
+}
+.image
+{
+    width: 45%;
+    background-image: url(../JPI/natural-view.avif);
+    /* background-color: #cccccc; */
+    height: 500px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;*/
+    background-size: 100% 100%;
+    font-family: "Inter", sans-serif;
+    float: left;
+}
+
+.image h4{
+    color: white;
+    padding: 20px;
+    width: 80px;
+    float: left;
+}
+.imo{
+    margin-top: 30px;
+}
+.image i{
+    width: 20px;
+    height: 20px;
+    /* background-color: black; */
+    float: right;
+    margin: 20px;
+    margin-right: 20px;
+}  
+i{
+    width: 100%;
+    height: 100%;
+}
+.image i:hover
+{
+    background-color:royalblue;
+}
+
+.image h1{
+    color: white;
+    text-align: center;
+}
+.image P{
+    color: white;
+    text-align: center;
+}
+.image p{
+    padding-top:150px ;
+    font-size: 0.7em;
+}
+.R-form
+{
+    width: 50%;
+    height: 500px;
+    float: left;
+    border: 1px solid brown;
+}
+.logo h1,  {
+    color: rgb(15, 14, 14);
+    text-align: center;
+}
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
